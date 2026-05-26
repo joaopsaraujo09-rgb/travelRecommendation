@@ -215,3 +215,355 @@ nav a{
 
     background-color: #16897b;
 }
+
+/*tarefa 4 */
+
+/* ABOUT HERO */
+
+.about-hero{
+
+    position: relative;
+
+    min-height: 100vh;
+
+    background-image: url("./fotos/plano_de_fundo.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    padding: 80px;
+
+    color: white;
+}
+
+/* OVERLAY */
+
+.overlay{
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.5);
+}
+
+/* CONTEÚDO */
+
+.about-content{
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 900px;
+
+    margin-bottom: 60px;
+}
+
+/* TÍTULO */
+
+.about-content h2{
+
+    font-size: 80px;
+
+    margin-bottom: 30px;
+}
+
+/* TEXTO */
+
+.about-content p{
+
+    font-size: 22px;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+}
+
+/* EQUIPE */
+
+.team-section{
+
+    position: relative;
+
+    z-index: 2;
+}
+
+/* TÍTULO EQUIPE */
+
+.team-section h3{
+
+    font-size: 45px;
+
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+
+.team-cards{
+
+    display: flex;
+
+    gap: 30px;
+
+    flex-wrap: wrap;
+}
+
+/* CARD */
+
+.card{
+
+    background-color: rgba(255,255,255,0.15);
+
+    backdrop-filter: blur(5px);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    width: 250px;
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+
+.card:hover{
+
+    transform: translateY(-10px);
+}
+
+/* NOME */
+
+.card h4{
+
+    font-size: 28px;
+
+    margin-bottom: 15px;
+}
+
+/* FUNÇÃO */
+
+.card p{
+
+    font-size: 18px;
+}
+
+/*TAREFA 5555555555555555555555555555555555555555555555555555555555*/
+
+/* CONTACT HERO */
+
+.contact-hero{
+
+    position: relative;
+
+    min-height: 100vh;
+
+    background-image: url("./fotos/plano_de_fundo.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 80px;
+
+    color: white;
+}
+
+/* TEXTO */
+
+.contact-text{
+
+    position: relative;
+
+    z-index: 2;
+
+    max-width: 500px;
+}
+
+/* TÍTULO */
+
+.contact-text h2{
+
+    font-size: 90px;
+
+    margin-bottom: 20px;
+}
+
+/* SUBTÍTULO */
+
+.contact-text p{
+
+    font-size: 28px;
+}
+
+/* FORMULÁRIO */
+
+.contact-form{
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 400px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    background-color: rgba(255,255,255,0.1);
+
+    padding: 30px;
+
+    border-radius: 20px;
+
+    backdrop-filter: blur(6px);
+}
+
+/* LABEL */
+
+.contact-form label{
+
+    font-size: 18px;
+}
+
+/* INPUT E TEXTAREA */
+
+.contact-form input,
+.contact-form textarea{
+
+    padding: 15px;
+
+    border: 1px solid rgba(255,255,255,0.4);
+
+    border-radius: 10px;
+
+    background-color: rgba(255,255,255,0.1);
+
+    color: white;
+
+    font-size: 16px;
+
+    outline: none;
+}
+
+/* PLACEHOLDER */
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder{
+
+    color: rgba(255,255,255,0.7);
+}
+
+/* BOTÃO */
+
+.contact-form button{
+
+    padding: 15px;
+
+    border: none;
+
+    border-radius: 30px;
+
+    background-color: #1ea896;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+
+.contact-form button:hover{
+
+    background-color: #16897b;
+
+    transform: scale(1.03);
+}
+
+/*Tarefa 666666666666666666666666666666666666666666*/
+
+/* RESULTADOS */
+
+#results{
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 30px;
+
+    justify-content: center;
+
+    padding: 50px;
+
+    background-color: #f4f4f4;
+}
+
+/* CARD */
+
+.result-card{
+
+    width: 320px;
+
+    background-color: white;
+
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+
+    transition: 0.3s;
+}
+
+/* HOVER */
+
+.result-card:hover{
+
+    transform: translateY(-10px);
+}
+
+/* IMAGEM */
+
+.result-card img{
+
+    width: 100%;
+
+    height: 220px;
+
+    object-fit: cover;
+}
+
+/* CONTEÚDO */
+
+.result-content{
+
+    padding: 20px;
+}
+
+/* TÍTULO */
+
+.result-content h3{
+
+    margin-bottom: 15px;
+}
